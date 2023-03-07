@@ -1,0 +1,588 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* jumbotran */
+  #jumbotronRS {
+    background-image: url("./images/Hero.png") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+   
+  }
+#jumbotronNP{
+ 
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+  
+
+.display-4{
+  font-family:"Montserrat";
+  font-size: 64px !important;
+  font-weight: bold !important;
+  color: #ff9900;
+  
+}
+
+#headerNp{
+  
+  text-align: left !important;
+
+}
+#hero{
+  color: #ffffff;
+ 
+  
+}
+#heroNP{
+  color: #ff9900;
+  font-family:"poppins";
+  font-size: 24px;
+  font-weight: regular;
+  text-align: left;
+}
+
+/* navbar */
+
+
+.navbar-toggler {
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+ 
+  
+  
+}
+#topnav .nav-link  {
+  color: #ffffff !important; 
+  font-family:"poppoins" !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+
+}
+
+#topnavNP .nav-link  {
+  color: #ff9900 !important; 
+  font-family:"poppoins" !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+
+}
+#logoOff {
+ 
+  margin-left: 40px;
+
+}
+
+#offcanvasNavbar {
+  
+  
+ width: 30%;
+ background-color:rgba(242,153,74,0.9);
+ 
+ 
+}
+
+#downloadBtnTop:hover {
+  background-color: #ff990087 !important;
+  color: #ffffff !important;
+  border-color: #ff9900 !important;}
+
+
+
+
+  .navbar-nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+/* part2 */
+
+
+
+
+.part-2{
+  background-color: #ffffff ;
+  margin-top: -50px;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 80%;
+ position: relative;
+ top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.part-2 p{
+  font-family:"poppins";
+  font-size: 24px;
+  font-weight: regular;
+  color: #000000;
+  text-align: left;
+  margin-left: 50px;
+}
+.part-2 h3{
+  font-family:"montserrat";
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+#DF{
+
+  color: #33673a;
+}
+#RF
+{
+  color: #ff9900;
+}
+
+.card-img-top{
+  width: 25% !important;
+  height: auto;
+ 
+}
+
+
+
+/* part 3 */
+#part-3 {
+  background-color: #9BB686;
+  
+
+
+}
+#part-3NP {
+  background-color: rgba(255,153,0,0.18);
+  height: max-content;
+}
+
+  .col {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .part-3Card {
+    background-color: #9BB686!important;
+    
+    width: 350px !important;
+    border: none !important;
+  }
+  .part-3NPCard{background-color: #FFEDD1!important;
+    
+    width: 350px !important;
+    border: none !important;
+
+  }
+
+  .part-3CardTitle {
+    color: #33673A !important;
+    font-family:"montserrat";
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .part-3NPCardTitle{
+    color: #ff9900 !important;
+    font-family:"montserrat";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #part-3 { margin-top:0 !important;
+   
+   
+  }
+
+  #p3title {
+    font-family:"montserrat";
+  font-size: 40px;
+  font-weight: bold;
+    display: block ;
+    text-align: center ;
+    color: #33673A;
+    background-color: #9BB686;
+    margin: 0;
+    margin-bottom: -3px;
+    padding-top: 40px;
+  }
+
+  .part-3CardText{
+    font-family:"montserrat";
+    font-size: 24px;
+  }
+
+  .part-3NPCardText{
+    font-family:"montserrat";
+    font-size: 20px;
+  }
+
+
+
+
+
+/* Carousel */
+.carousel-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 100px auto;
+  height: 25%;
+ 
+  
+ 
+}
+.carousel-caption { margin-top: 30px !important;
+ 
+
+ 
+}
+.carousel-inner{
+  background-color: #092C4C;
+ 
+}
+
+
+
+  /* part 4 */
+  .p4subTitle{
+    font-family:"montserrat";
+    font-size: 24px;
+    font-weight: regular;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+
+
+#part-4 {
+  background-color: #ff9900;
+  
+
+
+}
+
+.part-4Card {
+  background-color: #ff9900!important;
+   width: 350px 
+    !important;
+    border: none !important;
+}
+
+.part-4CardTitle {
+  color: #ffffff !important;
+  font-family:"montserrat";
+  font-size: 30px;
+}
+#part-4 { margin: top 40px !important;
+ 
+ 
+}
+
+
+#p4title {
+  font-family:"montserrat";
+font-size: 36px;
+font-weight: bold;
+  display: block ;
+  text-align: center ;
+  color: #f90;
+  background-color: #ffffff;
+  margin-top: 100px;
+  
+}
+
+.part-4CardText{
+  font-family:"montserrat";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+
+/* Footer */
+
+
+#footerBtn{margin-top: -75px ;
+  margin-left: 20px !important;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.dwonLoad{background-color: #ff9900 ; 
+  color: white;
+   --bs-btn-padding-x: 3rem;
+    --bs-btn-padding-y: .24rem;
+  --bs-btn-font-size: 1.4rem;
+
+}
+ 
+#downLoadFooter:hover {
+  background-color: #ff990087 !important;
+  color: #ffffff !important;
+  border-color: #ff9900 !important;
+}
+
+
+
+/* @Media */
+
+
+@media only screen and (max-width: 775px)
+ {
+  /* .part-2 {
+    margin-top: 10px !important;
+  } */
+  #jumbotronRS {
+    background-image: url("./images/Hero.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p#hero{
+    font-size: 16px;
+    
+    
+    
+  }
+  .card-img-top {
+    width: 30% !important;
+  }
+  #header {
+    font-size: 24px !important;
+  }
+  #part-3 {
+    width: auto!important;
+  }
+  #footerBtn{ display: none !important;
+  }
+ 
+  #offcanvasNavbar {
+  
+  
+    width: 30%;
+    background-color:rgba(242,153,74,0.9);
+    
+    
+   }
+   
+   #downloadBtnTop:hover {
+     background-color: #ff990087 !important;
+     color: #ffffff !important;
+     border-color: #ff9900 !important;}
+   
+   
+    
+ 
+
+ 
+
+
+
+
+
+}
+
+
+
+ @media only screen and (max-width: 762px)
+ {
+
+
+#downloadBtnTop {
+  display: inline-block;
+   
+ 
+    margin-left: 0px ;
+    --bs-btn-padding-x: 20px !important;
+
+}
+
+
+.nav-link {
+  opacity: 0 !important;
+  font-family:"poppoins" !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+ 
+
+}
+.nav-item {
+
+
+
+display: inline-block;
+width: 4em;
+height: 2em;
+background-repeat: no-repeat;
+background-size: contain !important;
+background-size: 100% !important;
+/* text-indent: -9999Px; */
+margin-top: 30px !important;
+margin-left: 70px  !important;
+
+ 
+
+
+ }
+
+#restaurant{
+
+  background-image: url(/images/restaurant.png)!important;
+  height: max-content;
+  margin: 50px !important;
+  pointer-events: auto;
+  
+  
+}
+#nonprofit{
+
+  background-image: url(/images/nonprofit.png)!important;
+  height: max-content;
+  margin: 50px !important;
+  pointer-events: auto;
+}
+
+#contact{
+
+  background-image: url(/images/contact.png)!important;
+  margin-bottom: 30px !important;
+  height: max-content;
+  margin: 50px !important;
+  pointer-events: auto;
+  
+  
+}
+
+@media only screen and (max-width: 640px)
+ {
+  p#hero{
+
+  color: #000;
+  
+  
+}
+/* #downloadBtnTop {
+  --bs-btn-padding-x: 10px !important;
+  --bs-btn-padding-y: .1rem !important;
+  --bs-btn-font-size: 7px !important;
+ 
+  font-size: 10px !important;
+} */
+
+ }
+
+ .nav-item {
+
+ 
+
+  display: inline-block;
+  width: 1.5em;
+  height: 2em;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-size: 60%;
+  margin-top: 30px !important;
+  margin-left: 40px  !important;
+  
+
+
+  
+ }
+}
+
+
+@media only screen and (max-width: 394px)
+ {
+
+#downloadBtnTop {
+ 
+ 
+  font-size: 8px !important;
+  margin: 0% !important;
+}
+
+
+
+ /* .nav-item {
+ 
+
+ 
+
+
+  margin-left: 20px  !important;
+  
+
+
+  
+ } */
+ #restaurant{
+
+  
+  margin: 0px !important;
+ 
+  
+  
+}
+#nonprofit{
+
+  
+  margin: 0px !important;
+  
+}
+
+#contact{
+
+ 
+  margin: 0px !important;
+  
+  
+  
+}
+ 
+}
+
+ 
+ @media only screen and (max-width :991px) {
+  #topnavNP .nav-link  {
+    color: #ffffff !important; 
+    
+  
+  }
+  #downloadBtnTop {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    box-shadow: #000;
+    background-image: url(./images/Downloadapp.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: max-content;
+    width: 100%;
+    text-indent: -999999px !important;
+    border: none !important;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    margin-left: 50px  ;
+    padding-top: 100px !important;
+    margin-top: 10px !important;
+    
+  }
+
+ }
+
+

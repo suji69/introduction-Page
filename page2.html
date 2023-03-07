@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hunger's Heros NonProfits</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   
+ <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+ <script src="./Js/index.js"></script>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav  id="topnavNP" class="navbar  navbar-expand-lg "  >
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img   src="./images/logo_orange.png" alt="Logo" width="100" height="85.03">
+        </a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+           
+            <!-- <img id="logoOff" src="./images/Logo.png" alt="Logo" > -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" id="restaurant">
+              <a class="nav-link" aria-current="page" href="/index.html">For Resturant</a>
+            </li>
+            <li class="nav-item" id="nonprofit">
+              <a class="nav-link" href="#">For Nonprofits</a>
+            </li>
+    
+            <li class="nav-item " id="contact">
+              <a class="nav-link"
+                href="#"
+              data-bs-toggle="modal" data-bs-target="#contactUsModal">
+                
+                
+          
+                
+                Contact Us</a>
+            </li>
+          </ul>
+          
+          
+          <a  id="downloadBtnTop" class=" btn  btn-lg btn-primary me-md-2"  href="#" role="button" style="background-color: #ff9900; color: white; --bs-btn-padding-x: 3rem; --bs-btn-padding-y: .24rem;
+          --bs-btn-font-size: 1.4rem;">Get The App</a>
+        </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+    
+    <!-- Contact Us -->
+    
+    
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm" action="YourSubmitURL" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <small id="nameHelp" class="form-text text-muted">Please enter your name.</small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Please enter your email.</small>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" aria-describedby="messageHelp"></textarea>
+                <small id="messageHelp" class="form-text text-muted">Please enter your message.</small>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+        
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+    <div id="jumbotronNP" class="jumbotron jumbotron-fluid text-center">
+    
+    
+      <div class="container">
+        <h1 id="headerNp" class="display-4">DELICIOUS FOOD
+            READY FOR PICKUP
+            
+          </h1>
+        <p id="heroNP"class="lead">Surplus food from local restaurants.</p>
+      </div>
+    
+    
+      
+    </div>
+<!-- part 2 -->
+    <!-- this part has no content  -->
+    <!-- part 3 -->
+   
+    <div id="part-3NP" class="row row-cols-1 row-cols-md-3 g-4 text-center">
+      <div class="col">
+        <div  class="card part-3NPCard">
+          <img src="./images/icons/Connect.png" class="card-img-top mx-auto" alt="apple">
+          <div class="card-body part-3CardBody">
+            <h5 class="card-title part-3NPCardTitle">Connect</h5>
+            <p class="card-text part-3NPCardText">Connect with local
+                restaurants and get
+                notified when food is
+                ready for pickup.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card part-3NPCard">
+          <img src="./images/icons/pickup.png" class="card-img-top mx-auto" alt="car">
+          <div class="card-body part-3CardBody">
+            <h5 class="card-title part-3NPCardTitle">Pick Up</h5>
+            <p class="card-text part-3NPCardText">Pick up your selection of food in person.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card part-3NPCard">
+          <img src="./images/icons/Distribute.png" class="card-img-top mx-auto" alt="...">
+          <div class="card-body part-3CardBody">
+            <h5 class="card-title part-3NPCardTitle">Distribute</h5>
+            <p class="card-tex part-3NPCardText">Distribute a nutritious food within a community.  </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    
+    <!-- Carousel -->
+   
+    <!-- part 4 -->
+    
+    
+    
+    <h3 id="p4title">WHY IT MATTERS
+
+    </h3>
+    <p class="p4subTitle" style="text-align: left;padding-left: 50px;">
+        
+        Recent data collected from companies in the food service industry (including hotels, restaurants and institutions) indicates that the proportion of food purchased for sale by these establishments that becomes waste is significant – 21% of dairy, eggs and field crops, 38% of produce, and 20% of meat (VCMI, 2019). Currently, most companies addressing the issue focus on food donation, diverting from landfill, with an increasing number also identifying opportunities to reduce waste.
+</p>
+<h3 style="font-family:montserrat; font-weight: bold;font-size: 24px;color: #ff9900;padding-left: 50px;">Why food waste happens here</h3>
+
+
+<p class="p4subTitle" style="text-align: left;padding-left: 50px;margin-bottom: 10px;">Pre-consumer Losses in the Kitchen</p>
+<ul style="padding-left:70px
+; margin-top: 1px;">
+    <li class="p4subTitle" style="text-align: left; margin: 10px ;padding:0;">Food prepared but not served</li>
+    <li class="p4subTitle" style="text-align: left; margin: 10px ;padding:0;">Surplus inventory of ingredients</li>
+    <li class="p4subTitle" style="text-align: left; margin: 10px;padding:0;">Inadequate storage</li>
+</ul>
+   <p class="p4subTitle" style="text-align: left;padding-left: 50px;margin-bottom: 80px;">We at Hunger’s Heroes are focused on reducing food waste in food service operations. By recovering surplus food from restaurants and redistributing it to local food organizations that can utilize the resources, maintaining the highest value of food - as nourishment for people.</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <div class="container-fluid">
+      <h2 style="color: orange;">The difference you can make with our app</h2>
+      <p>Every time you make a donation, our app calculates the impact your business has made to the society and an environment.</p>
+    
+      <div class="row" style="background-color: orange;">
+        <div class="col-md-4">
+          <img src="./images/icons/Vector-2.png" alt="Cutlery" />
+          <h3>52.5KG</h3>
+          <p style="font-size: small;">Total Food Donated</p>
+        </div>
+        <div class="col-md-4">
+          <img src=".//images/icons/Vector-3.png" alt="waste" />
+          <h3>72.5KG</h3>
+          <p style="font-size: small;">Waste Reduced</p>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/icons/Vector-3.png" alt="logo" />
+          <h3>5000</h3>
+          <p style="font-size: small;">People Happy</p>
+        </div>
+      </div>
+    </div> -->
+    
+    
+    <!-- <footer style="background-color:white; padding:30px; text-align:center;">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="https://www.instagram.com/"><img src=".//images/icons/Instagram.png" alt="instagram logo" width="50" height="50" class="mr-4"/></a>
+            <a href="https://www.twitter.com/"><img src=".//images/icons/Twitter.png" alt="twitter logo" width="50" height="50" class="mr-4"/></a>
+            <a href="https://www.facebook.com/"><img src="./images/icons/Facebook.png" alt="facebook logo" width="50" height="50" class="mr-4"/></a>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-12">
+            <div class="float-right">
+              <button type="button" class="btn btn-outline-secondary" style="background-color:#ff9900; color:white; padding:10px; font-size:20px; width:250px; height:50px; border-radius:50px;">Download The App</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    
+    
+    <footer class="bg-light text-white">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-6 col-md-4 mx-auto text-center">
+    
+            <ul class="list-inline mt-6">
+              <li class="list-inline-item"><a href="#"><img src="./images/icons/Facebook.png"/></a></li>
+              <li class="list-inline-item"><a href="#"><img src="./images/icons/Twitter.png"/></a></li>
+              <li class="list-inline-item"><a href="#"><img src="/images/icons/Instagram.png"/></a></li>
+            </ul>
+    
+          </div>
+    
+          <div id="footerBtn" class="d-grid  d-lg-flex justify-content-end ">
+            <a id="downLoadFooter"class="btn btn-lg btn-primary me-md-2"  href="#" role="button" style="background-color: #ff9900; color: white; --bs-btn-padding-x: 3rem; --bs-btn-padding-y: .24rem;
+            --bs-btn-font-size: 1.4rem;">Get The App</a>
+          </div>
+    
+        
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <script>
+      function submitForm() {
+        let form = document.getElementById("contactForm");
+        form.submit();
+        $('#contactUsModal').modal('hide');
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+      }
+    </script>
+    
+    
+    </body>
+    </html>
